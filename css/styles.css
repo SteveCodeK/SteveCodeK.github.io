@@ -633,7 +633,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
-  background-image: url('assets/code web1.jpeg');
+  background-image: url('../assets/code web1.jpeg');
 }
 
 .container,
