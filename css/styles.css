@@ -105,7 +105,8 @@ body {
 }
 
 header{
-  background-image: url('../assets/code web1.jpeg');
+  background: blue;
+  /*background-image: url('../assets/code web1.jpeg');*/
 }
 
 hr {
