@@ -104,11 +104,6 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-header{
-  background: blue;
-  /*background-image: url('../assets/code web1.jpeg');*/
-}
-
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -628,6 +623,17 @@ progress {
 .figure-caption {
   font-size: 0.875em;
   color: #6c757d;
+}
+
+.containers{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('assets/code web1.jpeg');
 }
 
 .container,
